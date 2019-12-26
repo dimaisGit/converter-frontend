@@ -1,13 +1,90 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
+}
+body {
+  overflow-x: hidden;
+}
+#particles {
+  background-color: #3C2D58;
+  position: absolute;
+  top: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid #A49DE0;
+  color: #A49DE0;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  cursor: pointer;
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+.results {
+  position: absolute;
+  background-color: #3C2D58;
+  top: 400px;
+  padding: 20px 0;
+  width: 100vw;
+}
+.team-result h1 {
+  color: white;
+}
+.team-result p {
+  font-size: 22px;
+  padding: 10px;
+}
+.team-result span {
+  color: white;
+  font-size: 24px;
+}
+.results:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+table {
+  margin: auto;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+table th, table td {
+  padding: 10px;
+}
+
+.team-result {
+  color: #A49DE0;
+  text-align: center;
+  float: left;
+  width: 50%;
 }
