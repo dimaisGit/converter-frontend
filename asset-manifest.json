@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/converter-frontend/static/css/main.832d8f24.chunk.css",
+    "main.js": "/converter-frontend/static/js/main.c3d5977d.chunk.js",
+    "main.js.map": "/converter-frontend/static/js/main.c3d5977d.chunk.js.map",
+    "runtime-main.js": "/converter-frontend/static/js/runtime-main.f75b2077.js",
+    "runtime-main.js.map": "/converter-frontend/static/js/runtime-main.f75b2077.js.map",
+    "static/css/2.5dbdccff.chunk.css": "/converter-frontend/static/css/2.5dbdccff.chunk.css",
+    "static/js/2.3cc4614a.chunk.js": "/converter-frontend/static/js/2.3cc4614a.chunk.js",
+    "static/js/2.3cc4614a.chunk.js.map": "/converter-frontend/static/js/2.3cc4614a.chunk.js.map",
+    "index.html": "/converter-frontend/index.html",
+    "precache-manifest.93660f2b02a7644b9aa9f483756c45d4.js": "/converter-frontend/precache-manifest.93660f2b02a7644b9aa9f483756c45d4.js",
+    "service-worker.js": "/converter-frontend/service-worker.js",
+    "static/css/2.5dbdccff.chunk.css.map": "/converter-frontend/static/css/2.5dbdccff.chunk.css.map",
+    "static/css/main.832d8f24.chunk.css.map": "/converter-frontend/static/css/main.832d8f24.chunk.css.map",
+    "static/js/2.3cc4614a.chunk.js.LICENSE": "/converter-frontend/static/js/2.3cc4614a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f75b2077.js",
+    "static/css/2.5dbdccff.chunk.css",
+    "static/js/2.3cc4614a.chunk.js",
+    "static/css/main.832d8f24.chunk.css",
+    "static/js/main.c3d5977d.chunk.js"
+  ]
+}
