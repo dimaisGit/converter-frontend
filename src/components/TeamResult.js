@@ -1,9 +1,12 @@
 import React from 'react'
 import CountUp from 'react-countup';
+import { excelDateToJSDate } from "../scripts/helpers";
 
 class TeamResult extends React.Component {
   render() {
     const { teamName, percent, topWin, topLoose } = this.props;
+    let topWinDate = excelDateToJSDate(topWin)
+    let topLooseDate = excelDateToJSDate(topLoose)
     return (
       <div className='team-result'>
         { percent &&
@@ -17,9 +20,9 @@ class TeamResult extends React.Component {
               suffix={" %"}
             />
             <p>TOP WIN DATE:</p>
-            <span>{topWin}</span>
+            <span>{topWinDate}</span>
             <p>TOP LOOSE DATE:</p>
-            <span>{topLoose}</span>
+            <span>{topLooseDate}</span>
           </>
         }
       </div>

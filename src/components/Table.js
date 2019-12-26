@@ -1,4 +1,5 @@
 import React from 'react'
+import { excelDateToJSDate } from "../scripts/helpers";
 
 class Table extends React.Component {
   render() {
@@ -6,15 +7,19 @@ class Table extends React.Component {
     return (
       <table>
         <thead>
-          <th>{dateName}</th>
-          <th>{team1Name}</th>
-          <th>{team2Name}</th>
+          <tr>
+            <th>{dateName}</th>
+            <th>{team1Name}</th>
+            <th>{team2Name}</th>
+          </tr>
         </thead>
-          {data.map(row => <tr>
-                <td>{row[dateName]}</td>
+        <tbody>
+          {data.map((row, index) => <tr key={index}>
+                <td>{excelDateToJSDate(row[dateName])}</td>
                 <td>{row[team1Name]}</td>
                 <td>{row[team2Name]}</td>
               </tr>)}
+        </tbody>
       </table>
     )
   }

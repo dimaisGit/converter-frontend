@@ -5,7 +5,6 @@ import { startDrawing } from "./Particles";
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 import Statistic from "./components/Statistic";
-import CountUp from "react-countup";
 
 
 class App extends React.Component{
